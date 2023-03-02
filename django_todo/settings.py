@@ -76,7 +76,9 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 # }
 
 
-os.environ.get("DATABASE_URL")
+DATABASES = {
+    'default': dj_database_url.parse('postgres://hbcniphc:OU3bbQ12tNTEEgniNgC_qAwfU_ORFUOA@trumpet.db.elephantsql.com/hbcniphc')
+}
 
 
 
