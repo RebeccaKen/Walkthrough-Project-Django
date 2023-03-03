@@ -20,7 +20,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['ckz8780-django-planner-app.herokuapp.com']
 
 
 # Application definition
